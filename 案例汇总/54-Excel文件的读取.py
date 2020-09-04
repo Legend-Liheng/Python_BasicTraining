@@ -11,7 +11,7 @@
 import xlrd
 
 # workexcel = xlrd.open_workbook('student.xlsx')
-with xlrd.open_workbook('test.xlsx') as workexcel:
+with xlrd.open_workbook('../test.xlsx') as workexcel:
 
     # 通过工作表序号获取工作表数据
     # table = workexcel.sheet_by_index(0)

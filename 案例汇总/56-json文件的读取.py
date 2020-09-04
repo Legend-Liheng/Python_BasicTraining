@@ -10,7 +10,7 @@
 
 import json
 
-with open('test.json','r', encoding= 'UTF-8') as my_json:
+with open('../test.json', 'r', encoding='UTF-8') as my_json:
 
     value = json.load(my_json)
     print(value)

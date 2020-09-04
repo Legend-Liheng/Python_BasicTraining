@@ -18,5 +18,5 @@
 # f.close()
 
 # 这种写法等价于上面的代码，省略了close操作
-with open('test.txt', 'w', encoding= 'UTF-8') as f:
+with open('../test.txt', 'w', encoding='UTF-8') as f:
     f.write('哈哈')

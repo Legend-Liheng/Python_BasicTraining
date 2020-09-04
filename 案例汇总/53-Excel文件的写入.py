@@ -13,7 +13,7 @@ import xlsxwriter, xlrd
 # 打开excel文件
 # workexcel = xlsxwriter.Workbook('student.xlsx')
 
-with xlsxwriter.Workbook('test.xlsx') as workexcel:
+with xlsxwriter.Workbook('../test.xlsx') as workexcel:
 
     # 给文件创建一张工作表
     worksheet = workexcel.add_worksheet('工作表1')

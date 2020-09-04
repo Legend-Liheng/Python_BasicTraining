@@ -17,7 +17,7 @@
 # #关闭文件，释放内存
 # f.close()
 
-with open('test.txt', 'r', encoding= 'UTF-8') as f:
+with open('../test.txt', 'r', encoding='UTF-8') as f:
     print(f.read())
 
 

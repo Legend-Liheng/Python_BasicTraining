@@ -8,7 +8,7 @@
 @Target  :
 """
 
-file_name = '文件/test.txt'
+file_name = '../文件/test.txt'
 
 # f = open(file_name, mode= 'a+', encoding= 'UTF-8')
 # f.write('你好啊1')
@@ -18,7 +18,7 @@ f1 = open(file_name, mode= 'r', encoding= 'UTF-8')
 ret = f1.read()
 print(ret)
 
-f2 = open('复制.txt', mode= 'w+', encoding= 'UTF-8')
+f2 = open('../复制.txt', mode='w+', encoding='UTF-8')
 f2.write(ret)
 print(f2.read())
 print(f2.tell())

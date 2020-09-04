@@ -27,7 +27,7 @@ import os
 print(os.getcwd())
 
 #修改当前工作目录
-os.chdir('批量修改文件名')
+os.chdir('../批量修改文件名')
 print('修改后的工作目录为：', os.getcwd())
 
 #新建一个列表，保存对应目录下的所有文件

@@ -27,7 +27,7 @@ print(type(json_str))
 # print(type(json.loads(json_str)))
 # print(json.loads(json_str))
 
-with open('test.json', 'w', encoding= 'UTF-8') as f:
+with open('../test.json', 'w', encoding='UTF-8') as f:
     f.write(json_str)
 
 # with open('test.json', 'w', encoding= 'UTF-8') as f:

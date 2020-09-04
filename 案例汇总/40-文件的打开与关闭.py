@@ -10,7 +10,7 @@
 
 # help(open)
 
-file_name = "test.txt"
+file_name = "../test.txt"
 
 #写
 # f = open(file_name, "w", encoding= 'UTF-8')

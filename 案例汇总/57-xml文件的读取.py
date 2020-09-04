@@ -12,7 +12,7 @@
 import xml.dom.minidom
 
 # 定义一个变量保存文件名
-file_name = "test.xml"
+file_name = "../test.xml"
 
 #打开xml文档
 domTree = xml.dom.minidom.parse(file_name)
