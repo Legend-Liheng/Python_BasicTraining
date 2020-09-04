@@ -34,6 +34,14 @@ class Car():
     def say():
         print('我是一个静态方法')
 
+    # __str__方法，在print(对象)时会自动打印出返回值
+    def __str__(self):
+        return '名字：%s 年龄：%d' % (self.person_name, self.person_age)
+
+    # 折构方法，在对象销毁时会自动调用
+    def __del__(self):
+        print('对象已销毁！')
+
 xiaoming = Car('小明', 20)
 
 # 使用实例属性
@@ -69,4 +77,5 @@ print(xiaoming.car_num)
 xiaoming.say()
 Car.say()
 
+print(xiaoming)
 
