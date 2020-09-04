@@ -13,11 +13,11 @@
     调用规则：模块名.属性名   模块名.函数名   模块名.类名
 '''
 
-# import custom_sum
-#
-# print(custom_sum.name)
-# print(custom_sum.sum(10, 20))
-# custom_sum.Person().eat()
+import custom_sum
+
+print(custom_sum.name)
+print(custom_sum.sum(10, 20))
+custom_sum.Person().eat()
 
 '''
     常用方法2：import 模块名 as 自定义模块名
@@ -47,8 +47,8 @@
     调用规则：直接填写自定义属性名进行调用
 '''
 
-from custom_sum import name as myname
-print(myname)
+# from custom_sum import name as myname
+# print(myname)
 
 '''
     常用方法5：from 模块名 import *
